@@ -1,0 +1,39 @@
+.colored-button {
+    background-color: #ffffff; /* Color de fondo del botón */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 22px;
+    transition: background-color 0.3s, color 0.9s;
+  }
+
+.colored-button:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+  }
+
+.colored-button:active {
+    background-color: #00ff00;
+    color: #ffffff;
+  }
+
+
+  .button-text {
+    color: #000000; /* Color del texto del botón */
+  }
+  #monkeyContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #monkeyImage {
+    width: 300px;
+    transition: 0.5s;
+    
+  }
+
+  .content-container {
+    background-color: #ac1f1f; /* Color de fondo deseado */
+    text-align: center;
+}
