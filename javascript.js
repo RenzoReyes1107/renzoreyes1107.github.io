@@ -20,7 +20,7 @@ document.addEventListener('click', function() {
 */
 
 var buttonClickCount = 0; // Variable para contar el número de pulsaciones del botón
-    var redirectPage = "https://api.whatsapp.com/send?phone=51941488363&text=Esta bien"; // Establece la URL de la página a la que deseas redirigir
+    var redirectPage = "https://api.whatsapp.com/send?phone=51941488363&text=Esta bien, del amor al odio, hay un solo paso 🫢"; // Establece la URL de la página a la que deseas redirigir
 
     function handleButtonClick() {
         buttonClickCount++; // Incrementa el contador de pulsaciones
